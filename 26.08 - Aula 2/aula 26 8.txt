@@ -1,0 +1,17 @@
+- SIO - ranqueamento de posicionamento WEB.
+
+- Começar com LOGO.
+
+- Overview do SITE no MENU é muito importante.
+
+- <div>: secção do conteudo, para organização.
+  Seletores: Tag, Class, Id.
+
+- <a href="https://www.google.com.br" target="_blank"> ACESSE </a>
+	link de um texto, botão ou img.
+	-target (_blank, _self, _top, _parent)
+
+- <ul></ul> construção de lista não ordenada
+- <ol></ol> lista ordenada.
+	<li></li> itens da lista.11:02 26/08/2019
+

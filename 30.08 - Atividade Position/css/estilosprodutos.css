@@ -1,0 +1,140 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+header{
+    background-color: #FF0909;
+    padding: 37px 0px 36px;
+}
+nav{
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 1366px;
+}
+.menu{
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    width: 320px;
+}
+.menu a{
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-family: Arial;
+}
+.menu a:hover, .ativo{
+    color: black !important;
+    border-bottom: 2px solid black;
+    padding: 0px 0px 3px;
+}
+.banner{
+    margin: auto;
+    width: 1366px;
+    position: relative;
+}
+.texto_banner{
+    position: absolute;
+    bottom: 50px;
+    left: 50px;
+    color: white;
+}
+.texto_banner .t1{
+    font-family: 'Times New Roman';
+    font-size: 40px;
+}
+.texto_banner .t2{
+    font-family: arial;
+    font-size: 30px;
+    margin: 0px 0px 30px;
+}
+.container{
+    margin: auto;
+    width: 1200px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 20px 0px 50px;
+}
+.card{
+    font-family: arial;
+    text-align: center;
+    line-height: 2.0;
+    width: 350px;
+    height: 500px;
+    margin: 50px 0px;
+}
+.card p{
+    padding: 30px 0px;
+    text-align: justify;
+}
+.btn{
+    color: white;
+    background-color: #FF0909;
+    text-decoration: none;
+    border-radius: 7px;
+    padding: 13px 50px;
+}
+.btn:hover{
+    color: black;
+}
+footer{
+    background-color: #FF0909;
+    color: white;
+    text-align: center;
+    padding: 50px 0px;
+}
+/*MEDIAS QUERIES*/
+/*TABLET*/
+@media (max-width:1169px){
+    nav{
+        width: 720px;
+    }
+    .banner img{
+        width: 100%;
+    }
+    .banner{
+        width: auto;
+    }
+    .texto_banner .t1{
+        font-size: 22px;
+    }
+    .texto_banner .t2{
+        font-size: 15px;
+    }
+    .container{
+        width: 720px;
+    }
+}
+/*SMARTPHONE*/
+@media (max-width:767px){
+    nav{
+        width: 368px;
+        flex-direction: column;
+    }
+    .menu{
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
+        height: 80px;
+        margin: 20px 0px 0px;
+    }
+    .banner{
+        background-color: black;
+        width: auto;
+        height: 250px;
+    }
+    .banner img{
+        display: none;
+    }
+    .texto_banner{
+        position: static;
+        text-align: center;
+        padding: 30px 0px;
+    }
+    .container{
+        width: 350px;
+    }
+}
